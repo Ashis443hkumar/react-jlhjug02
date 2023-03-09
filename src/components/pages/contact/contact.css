@@ -1,0 +1,28 @@
+.from{
+margin: auto;
+width: 600px;
+  margin-top: 40px;
+}
+
+.userinfo{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.userinfo input{
+  width: 500px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+.from .sendbtn{
+  background: blue;
+  padding: 9px 34px;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+}
