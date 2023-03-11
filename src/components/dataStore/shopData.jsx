@@ -1,4 +1,4 @@
-const Data = [
+const ShopData = [
   {
     id:"1",
     image:"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/9/f/p/-original-imaghxenhnpyhn5u.jpeg?q=70",
@@ -73,4 +73,4 @@ const Data = [
   }
 ]
 
-export default Data
+export default ShopData

@@ -1,27 +1,32 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import Data from "../../dataStore/Data"
+// import ShopData from '../../dataStore/ShopData';
+import Shop from "../../dataStore/Shop"
+
+import "./style.css"
 
 export default function Shop() {
 
-  const[data, setData] =useState(Data)
+  const [data, setData] = useState(Shop);
 
-  const filterData = (cateItem) =>{
-    const gilirtdATA = data.filter((currItem) =>{
-      return currItem.categoery === cateItem
-    })
-    setData(gilirtdATA)
-
-  }
+  const filterData = (cateItem) => {
+    const gilirtdATA = data.filter((currItem) => {
+      return currItem.categoery === cateItem;
+    });
+    setData(gilirtdATA);
+  };
 
   return (
     <>
+
+{/* shop hero  */}
+
       <Container className="my-5">
         <Row className="gx-1">
           <Col lg="5" md="6" className="mx-0">
             <img
-              src="https://images.pexels.com/photos/3757055/pexels-photo-3757055.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt=""
               className="w-100 h-100"
             />
@@ -61,57 +66,43 @@ export default function Shop() {
         </Row>
       </Container>
 
-      <section className="">
+{/* shop About Fitlter  */}
+      <section className="my-4">
         <Container>
           <Row>
             <Col lg="3" className="bg-warning text-center">
               <h2> filter </h2>
-              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0">
-                Sofa
+              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>filterData('phone') } >
+               Mobile Phone 
               </button>
-              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0">
-                Sofa
+              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>filterData('ChairSofa')}>
+                Sofachair
               </button>
-              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0">
-                Sofa
+              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0"  onClick={() =>filterData(data)}>
+                All products
               </button>
+             
               <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0">
-                Sofa
-              </button>
-              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0">
-                Sofa
-              </button>
-              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0">
-                Sofa
-              </button>
-              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0">
-                Sofa
-              </button>
-              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0">
-                Sofa
+                Sofa Bed
               </button>
               <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0 mb-3">
-                Sofa
+                Sofa Leaving
               </button>
             </Col>
             <Col lg="9" className="bg-primary">
               <Row>
-                {
-                  data.map((val) =>(
-                    <Col lg="3">
-                      <img src="" alt="" />
-                      <div className="">
-                        <h3>{val.title}</h3>
-                        <p>{val.title}</p>
-                        <button>Cart</button>
-                      </div>
-                    </Col>
-                    
-                  ))
-                }
-                <Col lg="3">5</Col>
-                <Col lg="3">7</Col>
-                <Col lg="3">9</Col>
+                {data.map((val) => (
+                  <Col lg="3" className=""> 
+                  <div className="cco">
+                  <img src={val.image} alt="" className="" />
+                    <div className="">
+                      <h3>{val.title}</h3>
+                      <p>{val.title}</p>
+                      <button class="px-4 py-1">Add To Cart</button>
+                    </div>
+                  </div>
+                  </Col>
+                ))}
               </Row>
             </Col>
           </Row>

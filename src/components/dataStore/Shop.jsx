@@ -1,4 +1,4 @@
-const Data = [
+const Shop = [
   {
     id:"1",
     image:"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/9/f/p/-original-imaghxenhnpyhn5u.jpeg?q=70",
@@ -28,7 +28,7 @@ const Data = [
   },
   {
     id:"4",
-    image:"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70",
+    image:"https://images.pexels.com/photos/2464005/pexels-photo-2464005.jpeg?auto=compress&cs=tinysrgb&w=600",
     categoery:"Phone",
     title:"I Phone 14Pro",
     subtitle:'',
@@ -36,41 +36,42 @@ const Data = [
     bgColor:"#000"
   },
   {
-    id:"4",
-    image:"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70",
-    categoery:"Phone",
+    id:"5",
+    image:"https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=600",
+    categoery:"ChairSofa",
     title:"I Phone 14Pro",
     subtitle:'',
     price:"$899",
     bgColor:"#000"
   },
   {
-    id:"4",
-    image:"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70",
-    categoery:"Phone",
+    id:"6",
+    image:"https://images.pexels.com/photos/2464005/pexels-photo-2464005.jpeg?auto=compress&cs=tinysrgb&w=600",
+    categoery:"ChairSofa",
     title:"I Phone 14Pro",
     subtitle:'',
     price:"$899",
     bgColor:"#000"
   },
   {
-    id:"4",
-    image:"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70",
-    categoery:"Phone",
+    id:"7",
+    image:"https://images.pexels.com/photos/269155/pexels-photo-269155.jpeg?auto=compress&cs=tinysrgb&w=600",
+    categoery:"ChairSofa",
     title:"I Phone 14Pro",
     subtitle:'',
     price:"$899",
     bgColor:"#000"
   },
   {
-    id:"4",
-    image:"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70",
-    categoery:"Phone",
+    id:"8",
+    image:"https://images.pexels.com/photos/269141/pexels-photo-269141.jpeg?auto=compress&cs=tinysrgb&w=600",
+    categoery:"ChairSofa",
     title:"I Phone 14Pro",
     subtitle:'',
     price:"$899",
     bgColor:"#000"
-  }
+  },
+  
 ]
 
-export default Data
+export default Shop

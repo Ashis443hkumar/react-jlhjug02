@@ -1,0 +1,13 @@
+.cco{
+  padding: 10px 0px 12px 0px;
+  background-color: #fff;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.71);
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+.cco img{
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}

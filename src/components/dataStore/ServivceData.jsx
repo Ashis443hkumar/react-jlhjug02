@@ -31,6 +31,30 @@ const ServiceData = [
     subtitle:'',
     price:"$899",
     bgColor:"#000"
+  },
+  {
+    id:"5",
+    categoery:"Phone",
+    title:"I Phone 14Pro",
+    subtitle:'',
+    price:"$899",
+    bgColor:"#000"
+  },
+  {
+    id:"6",
+    categoery:"Phone",
+    title:"I Phone 14Pro",
+    subtitle:'',
+    price:"$899",
+    bgColor:"#000"
+  },
+  {
+    id:"7",
+    categoery:"Phone",
+    title:"I Phone 14Pro",
+    subtitle:'',
+    price:"$899",
+    bgColor:"#000"
   }
 ]
 
