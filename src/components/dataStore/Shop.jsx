@@ -6,7 +6,7 @@ const Shop = [
     title:"I Phone 12Pro",
     subtitle:'',
     price:"$1299",
-    bgColor:"#000"
+    bgColor:"#2596be"
   },
   {
     id:"2",
@@ -15,7 +15,7 @@ const Shop = [
     title:"I Phone 13Pro",
     subtitle:'',
     price:"$1959",
-    bgColor:"#000"
+    bgColor:"#2596be"
   },
   {
     id:"3",
@@ -24,7 +24,7 @@ const Shop = [
     title:"I Phone x",
     subtitle:'',
     price:"$1299",
-    bgColor:"#000"
+    bgColor:"#2596be"
   },
   {
     id:"4",
@@ -33,7 +33,7 @@ const Shop = [
     title:"I Phone 14Pro",
     subtitle:'',
     price:"$899",
-    bgColor:"#000"
+    bgColor:"#2596be"
   },
   {
     id:"5",
@@ -56,6 +56,24 @@ const Shop = [
   {
     id:"7",
     image:"https://images.pexels.com/photos/269155/pexels-photo-269155.jpeg?auto=compress&cs=tinysrgb&w=600",
+    categoery:"ChairSofa",
+    title:"I Phone 14Pro",
+    subtitle:'',
+    price:"$899",
+    bgColor:"#000"
+  },
+  {
+    id:"8",
+    image:"https://images.pexels.com/photos/269141/pexels-photo-269141.jpeg?auto=compress&cs=tinysrgb&w=600",
+    categoery:"ChairSofa",
+    title:"I Phone 14Pro",
+    subtitle:'',
+    price:"$899",
+    bgColor:"#000"
+  },
+  {
+    id:"8",
+    image:"https://images.pexels.com/photos/269141/pexels-photo-269141.jpeg?auto=compress&cs=tinysrgb&w=600",
     categoery:"ChairSofa",
     title:"I Phone 14Pro",
     subtitle:'',

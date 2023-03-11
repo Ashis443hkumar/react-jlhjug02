@@ -11,7 +11,7 @@ export default function Shop() {
   const [data, setData] = useState(Shop);
 
   const filterData = (cateItem) => {
-    const gilirtdATA = data.filter((currItem) => {
+    const gilirtdATA = Shop.filter((currItem) => {
       return currItem.categoery === cateItem;
     });
     setData(gilirtdATA);
@@ -71,23 +71,43 @@ export default function Shop() {
         <Container>
           <Row>
             <Col lg="3" className="bg-warning text-center">
-              <h2> filter </h2>
-              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>filterData('phone') } >
+              <Row className="text-center"> 
+                <Col lg="10">
+                <h2> filter </h2>
+              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>filterData('Phone')} 
+              onClick={() =>filterData('')  } >
                Mobile Phone 
               </button>
               <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>filterData('ChairSofa')}>
                 Sofachair
               </button>
-              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0"  onClick={() =>filterData(data)}>
+              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>setData(Shop)}>
                 All products
               </button>
-             
+
               <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0">
                 Sofa Bed
               </button>
               <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0 mb-3">
                 Sofa Leaving
               </button>
+             </Col>
+             <Col lg="10">
+                <h2> filter Color </h2>
+              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>filterData('Phone') } >
+               Read Color 
+              </button>
+              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>filterData('ChairSofa')}>
+                Black Color
+              </button>
+              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>setData(Shop)}>
+                Yellow Color
+              </button>
+                </Col>
+              </Row>
+              
+             
+             
             </Col>
             <Col lg="9" className="bg-primary">
               <Row>
