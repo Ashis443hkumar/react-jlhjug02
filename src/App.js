@@ -9,6 +9,7 @@ import Shop from './components/pages/shop/Shop'
 
 import ProductDetails from "./components/pages/cart/ProductDetails"
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Footer from './components/common/footer/Footer'
 
