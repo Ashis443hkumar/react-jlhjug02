@@ -23,6 +23,7 @@ export default function Header() {
               <li><NavLink to='/'>Home</NavLink></li>
               <li><NavLink to='/about'>About</NavLink></li>
               <li><NavLink to='/product'>Products</NavLink></li>
+              <li><NavLink to='/Shop'>Shop</NavLink></li>
               <li><NavLink to='/contact'>Contact</NavLink></li>
               <li><NavLink to='/login' className="login">Login</NavLink></li>
              </ul>

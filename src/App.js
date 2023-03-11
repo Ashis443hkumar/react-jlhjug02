@@ -5,6 +5,7 @@ import Home from './components/pages/home/Home'
 import About from './components/pages/about/About'
 import Products from './components/pages/products/Products'
 import Contact from './components/pages/contact/Contact'
+import Shop from './components/pages/shop/Shop'
 
 import ProductDetails from "./components/pages/cart/ProductDetails"
 
@@ -23,6 +24,7 @@ export default function App() {
             <Route path="/about" element={<About/>} />
             <Route path="/product" element={<Products/>} />   
             <Route path="/contact" element={<Contact/>} />   
+            <Route path="/shop" element={<Shop/>} />   
             <Route path="/cart/:id"  element={<ProductDetails/>} />
 
           </Routes>
