@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { add } from '../../../store/cartSlice';
 import Data from '../../dataStore/Data';
 
-export default function NewAriable() {
+export default function NewAriable(props) {
 
   const [data, setData] = useState(Data);
   
@@ -19,7 +19,8 @@ export default function NewAriable() {
     <>
       <section className="">
         <div className="heading">
-          <h2>New Arriable</h2>
+          {/* <h2>New Arrials Products</h2> */}
+          <h2>{props.subtitle}</h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
             laboriosam sint facere?

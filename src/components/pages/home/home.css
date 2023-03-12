@@ -118,3 +118,40 @@
     flex-basis: 96%;
   }
   }
+
+  /* clock   */
+
+  
+  .time_count{
+    background-color: blue;
+    height: 300px;
+    width: 100%;
+  
+  }
+  .clock_content{
+    padding-top: 55px;
+  }
+  .time_count img{
+   width: 80% !important;
+   height: 80% !important;
+   object-fit: contain;
+  }
+  
+  .clock-img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    text-align: end;
+    background: transparent;
+  }
+  
+  .btn_store{
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  .btn_store a{
+    text-decoration: none;
+    color: black;
+  }
