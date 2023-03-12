@@ -83,8 +83,7 @@ export default function Shop() {
               <Row className="text-center"> 
                 <Col lg="10">
                 <h2> filter </h2>
-              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>filterData('Phone')} 
-              onClick={() =>filterData('')  } >
+              <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>filterData('Phone')} >
                Mobile Phone 
               </button>
               <button className="bg-secondary text-white py-2 col-md-10 mt-2 border-0" onClick={() =>filterData('ChairSofa')}>
