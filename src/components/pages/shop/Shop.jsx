@@ -113,9 +113,6 @@ export default function Shop() {
               </button>
                 </Col>
               </Row>
-              
-             
-             
             </Col>
             <Col lg="9" className="bg-primary">
               <Row>
@@ -124,7 +121,7 @@ export default function Shop() {
                   <div className="cco">
                   <img src={val.image} alt="" className="" />
                     <div className="">
-                      <h3>{val.title}</h3>
+                      <h4>{val.title}</h4>
                       <p>{val.title}</p>
                       <button class="px-4 py-1" onClick={() => handlerAddToCart(val)} >Add To Cart</button>
                     </div>
