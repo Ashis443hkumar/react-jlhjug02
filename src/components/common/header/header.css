@@ -7,6 +7,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
 }
 .navbar-list-menu{
   display: flex;

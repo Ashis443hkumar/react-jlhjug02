@@ -35,42 +35,8 @@ const Data = [
     price:"$899",
     bgColor:"#000"
   },
-  {
-    id:"4",
-    image:"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70",
-    categoery:"Phone",
-    title:"I Phone 14Pro",
-    subtitle:'',
-    price:"$899",
-    bgColor:"#000"
-  },
-  {
-    id:"4",
-    image:"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70",
-    categoery:"Phone",
-    title:"I Phone 14Pro",
-    subtitle:'',
-    price:"$899",
-    bgColor:"#000"
-  },
-  {
-    id:"4",
-    image:"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70",
-    categoery:"Phone",
-    title:"I Phone 14Pro",
-    subtitle:'',
-    price:"$899",
-    bgColor:"#000"
-  },
-  {
-    id:"4",
-    image:"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70",
-    categoery:"Phone",
-    title:"I Phone 14Pro",
-    subtitle:'',
-    price:"$899",
-    bgColor:"#000"
-  }
+ 
+ 
 ]
 
 export default Data

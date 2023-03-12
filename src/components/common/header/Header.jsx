@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import Cart from "../../pages/cart/Cart";
 import "./header.css";
+import Head from "../head/Head";
 
 export default function Header() {
 
@@ -15,6 +16,7 @@ export default function Header() {
 
   return (
      <>
+     <Head/>
      <header className="header">
           <h2>ReactStore</h2>
 
