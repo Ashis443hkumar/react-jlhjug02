@@ -6,6 +6,7 @@ import About from './components/pages/about/About'
 import Products from './components/pages/products/Products'
 import Contact from './components/pages/contact/Contact'
 import Shop from './components/pages/shop/Shop'
+import Login from './components/pages/loginpages/Login'
 
 import ProductDetails from "./components/pages/cart/ProductDetails"
 
@@ -26,6 +27,7 @@ export default function App() {
             <Route path="/product" element={<Products/>} />   
             <Route path="/contact" element={<Contact/>} />   
             <Route path="/shop" element={<Shop/>} />   
+            <Route path="/login" element={<Login/>} />   
             <Route path="/cart/:id"  element={<ProductDetails/>} />
 
           </Routes>

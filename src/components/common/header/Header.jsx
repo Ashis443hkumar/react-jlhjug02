@@ -27,7 +27,7 @@ export default function Header() {
               <li><NavLink to='/product'>Products</NavLink></li>
               <li><NavLink to='/Shop'>Shop</NavLink></li>
               <li><NavLink to='/contact'>Contact</NavLink></li>
-              <li><NavLink to='/login' className="login">Login</NavLink></li>
+              <li><NavLink to='/login' className="">Login</NavLink></li>
              </ul>
             <div className='cartitem' onClick={() => {setShowCart(true)}}>
                <i class="fa-solid fa-cart-shopping"></i>

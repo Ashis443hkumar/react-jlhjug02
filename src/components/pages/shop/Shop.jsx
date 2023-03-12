@@ -22,7 +22,7 @@ export default function Shop() {
 
 {/* shop hero  */}
 
-      <Container className="my-5">
+      <section className="my-5 shop_hero" >
         <Row className="gx-1">
           <Col lg="5" md="6" className="mx-0">
             <img
@@ -64,11 +64,10 @@ export default function Shop() {
             </Row>
           </Col>
         </Row>
-      </Container>
+      </section>
 
 {/* shop About Fitlter  */}
-      <section className="my-4">
-        <Container>
+      <section className="my-4 shop_filter">
           <Row>
             <Col lg="3" className="bg-warning text-center">
               <Row className="text-center"> 
@@ -126,7 +125,7 @@ export default function Shop() {
               </Row>
             </Col>
           </Row>
-        </Container>
+        
       </section>
     </>
   );
