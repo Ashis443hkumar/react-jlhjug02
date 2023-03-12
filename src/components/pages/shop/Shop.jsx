@@ -5,10 +5,15 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Shop from "../../dataStore/Shop"
 
 import "./style.css"
+import { useDispatch } from 'react-redux';
+import { add } from '../../../store/cartSlice';
 
 export default function Shop() {
 
   const [data, setData] = useState(Shop);
+
+  const dispatch = useDispatch();
+
 
   const filterData = (cateItem) => {
     const gilirtdATA = Shop.filter((currItem) => {
@@ -16,6 +21,11 @@ export default function Shop() {
     });
     setData(gilirtdATA);
   };
+
+  const handlerAddToCart = (val)=>{
+    dispatch(add(val))
+  }
+
 
   return (
     <>
@@ -117,7 +127,7 @@ export default function Shop() {
                     <div className="">
                       <h3>{val.title}</h3>
                       <p>{val.title}</p>
-                      <button class="px-4 py-1">Add To Cart</button>
+                      <button class="px-4 py-1" onClick={() => handlerAddToCart(val)} >Add To Cart</button>
                     </div>
                   </div>
                   </Col>

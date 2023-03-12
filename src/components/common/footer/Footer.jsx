@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container,Row, Col } from 'react-bootstrap';
 import './footer.css';
-// import Scroll from '../scroll/Scroll'
+import Scroll from '../scroll/Scroll'
 
 export default function Footer() {
   return (
@@ -121,6 +121,7 @@ export default function Footer() {
         </div>
       </div>
       
+      <Scroll/>
     </>
   );
 }
